@@ -30,6 +30,7 @@ dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     compile "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+    compile "org.springframework.boot:spring-boot-starter-actuator:$spring_boot_version"
     compile "org.springframework.boot:spring-boot-starter-data-mongodb-reactive:$spring_boot_version"
     compile "org.springframework.boot:spring-boot-starter-webflux:$spring_boot_version"
 }
